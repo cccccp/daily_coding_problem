@@ -56,3 +56,72 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 You can modify the input array in-place.
 
 [Solution](daily_coding_problem/problem_4)
+
+---
+
+**Problem 5**
+
+---
+
+**Problem 6**
+
+---
+
+**Problem 7**
+
+---
+
+**Problem 8**
+
+---
+
+**Problem 9**
+
+---
+
+**Problem 10**
+
+---
+
+**Problem 11**
+
+---
+
+**Problem 12**
+
+---
+
+**Problem 13**
+
+---
+
+**Problem 14**
+
+---
+
+**Problem 15**
+
+---
+
+**Problem 16**
+
+---
+
+**Problem 17**
+
+---
+
+**Problem 18**
+
+---
+
+**Problem 19**
+
+---
+
+**Problem 20**
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+[Solution](problem_20.py)
