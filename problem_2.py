@@ -1,11 +1,11 @@
-#With division
+#With division: O(n) time/space complexity
 def products_without_element(array):
     P=1
     for x in array:
         P*=x
     return [P//x for x in array]
         
-#Without division
+#Without division: O(n) time/space complexity
 def products_without_element2(array):
     n=len(array)
     products_right=[1]*n
