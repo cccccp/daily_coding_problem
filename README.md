@@ -22,7 +22,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division?
 
-[Solution](daily_coding_problem/problem_2)
+[Solution](problem_2.py)
 
 ---
 
@@ -38,7 +38,7 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 
 You can modify the input array in-place.
 
-[Solution](daily_coding_problem/problem_4)
+[Solution](problem_4.py)
 
 ---
 
