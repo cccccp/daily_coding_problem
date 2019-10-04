@@ -180,3 +180,66 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 [Solution](problem_21.py)
+
+---
+
+**Problem 20**
+
+---
+
+**Problem 21**
+
+---
+
+**Problem 22**
+
+---
+
+**Problem 23**
+
+---
+
+**Problem 24**
+
+---
+
+**Problem 25**
+
+---
+
+**Problem 26**
+
+---
+
+**Problem 27**
+
+---
+
+**Problem 28**
+
+---
+
+**Problem 29**
+
+---
+
+**Problem 30**
+
+---
+
+**Problem 31**
+
+---
+
+**Problem 32**
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
+
+[Solution](problem_32.py)
+
+---
+
+
+
