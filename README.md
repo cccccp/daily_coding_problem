@@ -361,10 +361,12 @@ Using a function rand5() that returns an integer from 1 to 5 (inclusive) with un
 
 ---
 
-**Problem 45**
+**Problem 46**
 
 Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+
+[Solution](problem_46.py)
 
 ---
