@@ -10,3 +10,5 @@ def longestpalindrome(char): # O(n^2) time complexity/ O(1) space complexity
                 pal=char[c-i:c+i+1]
             i+=1
     return pal    
+
+# There also exists a linear time advanced algorithm due to Manacher (https://en.wikipedia.org/wiki/Longest_palindromic_substring)
