@@ -1,4 +1,4 @@
-def longestpalindrome(char):
+def longestpalindrome(char): # O(n^2) time complexity/ O(1) space complexity
     n=len(char)
     l=0
     pal=''
