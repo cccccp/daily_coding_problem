@@ -5,7 +5,7 @@ def sumsto(l,K):# Dynamic programming approach in O(n*K) space/time complexity
     aux=[True]+[False]*K
     tab=[aux]
     for i in range(n):
-        aux=[aux[k] or aux[k-l[i]] for k in range(K+1)]
+        aux=[aux[k] or (l[i]<=k and aux[k-l[i]]) for k in range(K+1)]
         tab.append(aux)
     
     # We now recover the list of elements which sum to K 
@@ -17,7 +17,6 @@ def sumsto(l,K):# Dynamic programming approach in O(n*K) space/time complexity
             if tab[i][k] and not(tab[i-1][k]):
                 elements.append(l[i-1])
                 k-=l[i-1]
-                print(l[i-1])
-        return elements
+        return elements[::-1]
     else:
         return None
