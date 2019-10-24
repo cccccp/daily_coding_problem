@@ -1,3 +1,5 @@
+# A TRADUIRE ?
+
 # La première pile (la pile a) reçoit les éléments qu’on ajoute à la file. Lorsqu’on veut supprimer un
 # élément de la file, celui-ci est extrait de la pile b à moins que celle-ci ne soit vide, auquel cas les éléments de la
 # pile a sont tout d’abord transférés dans la pile 
