@@ -1,9 +1,9 @@
-def longestpalindrome(char): # Manacher's algorithm: O(n) time/space complexity
+def longestpalindrome(char): # Manacher's algorithm: O(n) time/space complexity (since right is incremented for each value of i)
     # To avoid problems with even sized longest palindroms
     s="^#"+"#".join(char)+"#$"
     n=len(s)
     
-    # definition of two auxilary parameters (right is the upper index of the previous longest palindrom; center is the corresponding position)
+    # definition of two auxilary parameters (right is the uppest index of the previous longest palindroms; center is the corresponding position)
     cen=0
     right=0
     
@@ -18,7 +18,7 @@ def longestpalindrome(char): # Manacher's algorithm: O(n) time/space complexity
         # definition of a lower bound for the palindrom centered at i
         
         # Since (obviously) i+ min(p[mir],right-i)<=right, one has mir-min(p[mir],right-i)>=left (the symmetric of right, w.r.t. cen) 
-        # and the palindrom centered in mir of radius min(p[mir],right-i) is included in the first-half of the longest palindrom centered in cen.
+        # and consequently the sub-palindrom centered in mir of radius min(p[mir],right-i)(<=p[mir]) is included in the first-half of the longest palindrom centered in cen.
         # Hence p[i] >=min(p[mir],right-i) (the symmetric of any palindrom centered in mir, w.r.t. cen, is also a palindrom).
         
         mir=cen-(i-cen)
@@ -30,14 +30,11 @@ def longestpalindrome(char): # Manacher's algorithm: O(n) time/space complexity
         
         if p[i]>length:
             length=p[i]
-            pal=s[i-p[i]:i+p[i]+1]
+            pal=s[i-p[i]+1:i+p[i]+1:2] # pal is necessary of the form #a1#a2...#an# where a1...an is a palindromic substring of 
             
         # new definition of the auxilary indexes
         if i+p[i]>right:
             right=i+p[i]
             cen=i
-    
-    word_pal=[c for c in pal if c != "^" and c != "#" and c != "$"]
-    pal="".join(word_pal)
     
     return pal
