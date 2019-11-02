@@ -11,3 +11,17 @@ def pow(x,n):
             return x*y*y
         
 # Remark: a non-recursive algorithm uses the binary expansion of n
+def pow(x,n):
+    y=x
+    p=1
+    
+    while n>0:
+        r=n%2
+        n=n//2
+        
+        if r!=0:
+            p=y*p
+        
+        y*=y
+
+    return p
