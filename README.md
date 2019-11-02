@@ -419,6 +419,28 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 
 ---
 
+**Problem 54**
+
+Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+Implement an efficient sudoku solver.
+
+[Solution](problem_54.py)
+
+---
+
+**Problem 55**
+
+---
+
+**Problem 56**
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+[Solution](problem_56.py)
+
+---
+
 **Problem 57**
 
 Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
@@ -444,3 +466,30 @@ You can assume all the integers in the array are unique.
 [Solution](problem_58.py)
 
 ---
+
+**Problem 59**
+
+---
+
+**Problem 60**
+
+Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
+
+For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
+
+Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
+
+[Solution](problem_60.py)
+
+---
+
+**Problem 61**
+
+Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, pow(2, 10) should return 1024.
+
+[Solution](problem_61.py)
+
