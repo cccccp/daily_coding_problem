@@ -9,3 +9,5 @@ def pow(x,n):
             return y*y
         else:
             return x*y*y
+        
+# Remark: a non-recursive algorithm uses the binary expansion of n
