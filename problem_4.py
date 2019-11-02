@@ -10,3 +10,11 @@ def minimal_positive(array):
         except KeyError:
             return i
         i+=1
+# Easier
+def minimal_positive(array):
+    s=set(array)
+    
+    i=1
+    while i in s:
+        i+=1
+    return i
