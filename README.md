@@ -590,3 +590,15 @@ For example, if the list is [-10, -10, 5, 2], we should return 500, since that's
 You can assume the list has at least three integers.
 
 [Solution](problem_69.py)
+
+---
+
+**Problem 70**
+
+A number is considered perfect if its digits sum up to exactly 10.
+
+Given a positive integer n, return the n-th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28.
+
+[Solution](problem_70.py)
