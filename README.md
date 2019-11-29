@@ -602,3 +602,11 @@ Given a positive integer n, return the n-th perfect number.
 For example, given 1, you should return 19. Given 2, you should return 28.
 
 [Solution](problem_70.py)
+
+---
+
+**Problem 71**
+
+Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
+
+[Solution](problem_71.py)
