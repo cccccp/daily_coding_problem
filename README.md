@@ -556,16 +556,23 @@ You are given N bishops, represented as (row, column) tuples on a M by M chessbo
 For example, given M = 5 and the list of bishops:
 
 (0, 0)
+
 (1, 2)
+
 (2, 2)
+
 (4, 0)
 
 the board would look like this:
 
 [b 0 0 0 0]
+
 [0 0 b 0 0]
+
 [0 0 b 0 0]
+
 [0 0 0 0 0]
+
 [b 0 0 0 0]
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
