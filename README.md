@@ -526,3 +526,13 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
 
 [Solution](problem_64.py)
+
+---
+
+**Problem 65**
+
+Assume you have access to a function toss_biased() which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
+
+Write a function to simulate an unbiased coin toss.
+
+[Solution](problem_65.py)
