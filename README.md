@@ -512,3 +512,17 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 [Solution](problem_62.py)
+
+---
+
+**Problem 63**
+
+---
+
+**Problem 64**
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
+[Solution](problem_64.py)
