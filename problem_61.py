@@ -1,5 +1,4 @@
- #exponentiation rapide en anglais
-
+#exponentiation rapide en anglais
 def square_and_multiply(x,n):
 	if n==0:
 		return 1
