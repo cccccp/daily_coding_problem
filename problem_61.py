@@ -1,4 +1,4 @@
-def square_and_multiply(x,n):
+def square_and_multiply(x,n): #exponentiation rapide en anglais
 	if n==0:
 		return 1
 	elif n==1:
