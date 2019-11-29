@@ -1,4 +1,4 @@
-# Reject method
+# Reject method: we first simulate a uniform draw on a set of 5^2(>7) elements  
 
 def rand7():
     a,b=0,0
